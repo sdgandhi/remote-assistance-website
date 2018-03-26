@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:900");
+
+.navbar-brand {
+  font-family: "Muli";
+  font-weight: 900;
+  text-transform: uppercase;
+}

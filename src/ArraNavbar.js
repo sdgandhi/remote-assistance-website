@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer, IndexLinkContainer } from "react-router-bootstrap";
+import "./ArraNavbar.css";
 
 class ArraNavbar extends Component {
   render() {
@@ -26,7 +27,7 @@ class ArraNavbar extends Component {
     return (
       <Navbar style={{ marginBottom: 0 }}>
         <Navbar.Header>
-          <Navbar.Brand>
+          <Navbar.Brand className="navbar-brand">
             <Link to="/">Arra</Link>
           </Navbar.Brand>
         </Navbar.Header>
