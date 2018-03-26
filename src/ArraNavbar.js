@@ -28,6 +28,11 @@ class ArraNavbar extends Component {
       <Navbar style={{ marginBottom: 0 }}>
         <Navbar.Header>
           <Navbar.Brand className="navbar-brand">
+            <img className="pull-left"
+              src="https://imgur.com/PRYIKU9.png"
+              style={{ height: "32px", width: "auto", paddingRight: "1rem", paddingBottom: "1rem" }}
+              alt="Arra app icon"
+            />
             <Link to="/">Arra</Link>
           </Navbar.Brand>
         </Navbar.Header>
