@@ -5,6 +5,7 @@ import ArraNavbar from "./ArraNavbar";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     );
   }
