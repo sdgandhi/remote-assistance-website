@@ -14,14 +14,14 @@ class Home extends Component {
           <Col>
             <div className="jumbotron-wrapper">
               <Jumbotron>
-                <h1>Remote collaboration in augmented reality</h1>
+                <h1>Communicate better with augmented reality</h1>
                 <br />
-                <h2>
-                  Arra lets you draw and place objects in someone else's world
+                <h2 style={{ lineHeight: "3.5rem" }}>
+                  Arra lets you draw and place objects in someone else's world.
                 </h2>
                 <br />
                 <br />
-                  <Button bsStyle="primary">Get Arra</Button>
+                <Button bsStyle="primary">Get Arra</Button>
               </Jumbotron>
             </div>
           </Col>
