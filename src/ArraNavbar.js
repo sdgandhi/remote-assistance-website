@@ -24,7 +24,7 @@ class ArraNavbar extends Component {
     );
 
     return (
-      <Navbar>
+      <Navbar style={{ marginBottom: 0 }}>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Arra</Link>

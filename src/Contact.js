@@ -10,6 +10,7 @@ class Contact extends Component {
         <Row>
           <Col md={6} xs={12}>
             <h1>Contact</h1>
+            <p>Drop us a line at hello@getarra.com</p>
           </Col>
         </Row>
       </Grid>
