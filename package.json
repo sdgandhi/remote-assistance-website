@@ -1,9 +1,9 @@
 {
-  "name": "getarra",
+  "name": "remote-assistance-website",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/new",
+  "homepage": "https://getarra.com",
   "main": "src/index.js",
   "dependencies": {
     "react": "16.2.0",
