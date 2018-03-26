@@ -11,14 +11,14 @@ class Mailchimp extends Component {
             method="post"
             id="mc-embedded-subscribe-form"
             name="mc-embedded-subscribe-form"
-            class="validate"
+            className="validate"
             target="_blank"
             novalidate
           >
             <div id="mc_embed_signup_scroll">
-              <h1>Subscribe to our mailing list</h1>
+              <h1>Sign up for the private beta</h1>
               <br />
-              <div class="mc-field-group">
+              <div className="mc-field-group">
                 <label for="mce-EMAIL">
                   What's your email? <span class="asterisk">*</span>
                 </label>
@@ -26,31 +26,31 @@ class Mailchimp extends Component {
                   type="email"
                   value=""
                   name="EMAIL"
-                  class="required email"
+                  className="required email"
                   id="mce-EMAIL"
                 />
               </div>
-              <div class="mc-field-group">
+              <div className="mc-field-group">
                 <label for="mce-REASON">
                   Why are you interested in Arra?{" "}
-                  <span class="asterisk">*</span>
+                  <span className="asterisk">*</span>
                 </label>
                 <input
                   type="text"
                   value=""
                   name="REASON"
-                  class="required"
+                  className="required"
                   id="mce-REASON"
                 />
               </div>
               <div id="mce-responses" class="clear">
                 <div
-                  class="response"
+                  className="response"
                   id="mce-error-response"
                   style={{ display: "none" }}
                 />
                 <div
-                  class="response"
+                  className="response"
                   id="mce-success-response"
                   style={{ display: "none" }}
                 />
@@ -66,13 +66,13 @@ class Mailchimp extends Component {
                   value=""
                 />
               </div>
-              <div class="clear">
+              <div className="clear">
                 <input
                   type="submit"
                   value="Subscribe"
                   name="subscribe"
                   id="mc-embedded-subscribe"
-                  class="button"
+                  className="button"
                 />
               </div>
             </div>

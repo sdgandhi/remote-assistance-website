@@ -12,6 +12,12 @@
   margin-right: 10%;
 }
 
+label {
+  line-height: 4rem;
+  padding-right: 2rem;
+}
+
 #mc-embedded-subscribe {
-  background-color: darkgray;
+  background-color: #333;
+  margin-top: 3rem;
 }
