@@ -1,0 +1,19 @@
+import React, { Component } from "react";
+import { Col } from "react-bootstrap";
+import "./DemoVideo.css";
+
+class DemoVideo extends Component {
+  render() {
+    return (
+      <div className="demo-video">
+        <div className="phone-frame center-block">
+          <video autoplay loop muted controls preload>
+            <source src="https://imgur.com/RG2p6ZN.mp4" />
+          </video>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default DemoVideo;

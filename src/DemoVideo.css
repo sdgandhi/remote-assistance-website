@@ -1,0 +1,21 @@
+.demo-video {
+  background-color: lightcoral;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+
+.phone-frame {
+  background-color: #333333;
+  padding: 50px 5px 50px 5px;
+  margin-top: 50px;
+  border-radius: 30px;
+  max-width: 250px;
+  height: auto;
+}
+
+.phone-frame video {
+  max-width: 100%;
+  height: auto;
+}
