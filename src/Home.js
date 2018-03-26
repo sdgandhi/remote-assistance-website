@@ -15,12 +15,13 @@ class Home extends Component {
             <div className="jumbotron-wrapper">
               <Jumbotron>
                 <h1>Remote collaboration in augmented reality</h1>
+                <br />
                 <h2>
                   Arra lets you draw and place objects in someone else's world
                 </h2>
-                <p>
-                  <Button bsStyle="primary">Download</Button>
-                </p>
+                <br />
+                <br />
+                  <Button bsStyle="primary">Get Arra</Button>
               </Jumbotron>
             </div>
           </Col>
