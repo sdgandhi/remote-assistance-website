@@ -4,6 +4,8 @@ import { LinkContainer } from "react-router-bootstrap";
 import "./Home.css";
 import Mailchimp from "./Mailchimp";
 import DemoVideo from "./DemoVideo";
+import AppIcon from "./AppIcon";
+import Config from "./config.json";
 
 class Home extends Component {
   render() {
@@ -12,23 +14,18 @@ class Home extends Component {
         <Row>
           <Col md={6}>
             <div className="header">
-              <img
-                className=""
-                src="https://imgur.com/PRYIKU9.png"
-                style={{ height: "128px", width: "auto", paddingTop: "3rem" }}
-                alt="Arra app icon"
-              />
+              <AppIcon style={{ height: "128px", width: "auto", paddingTop: "3rem" }}/>
               <br />
               <br />
-              <h1>Communicate better with augmented reality.</h1>
+              <h1>{Config.tagline}</h1>
               <br />
               <h3 style={{ lineHeight: "3.5rem" }}>
-                Arra lets you draw and place objects in someone else's world.
+                {Config.description}
               </h3>
               <br />
               <br />
               <LinkContainer to={"/beta"}>
-                <Button>Get Arra</Button>
+                <Button>Get {Config.name}</Button>
               </LinkContainer>
             </div>
           </Col>

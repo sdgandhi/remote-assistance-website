@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ArraNavbar from "./ArraNavbar";
+import ArraNavbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";

@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./DemoVideo.css";
+import Config from "./config.json";
 
 class DemoVideo extends Component {
   render() {
     return (
       <div className="demo-video">
         <div className="phone-frame center-block">
-          <video autoplay loop muted controls preload poster="https://imgur.com/mKpuXGr.jpg">
-            <source src="https://imgur.com/RG2p6ZN.mp4" />
+          <video autoplay loop muted controls preload poster={Config.demo_video_cover}>
+            <source src={Config.demo_video} />
           </video>
         </div>
       </div>

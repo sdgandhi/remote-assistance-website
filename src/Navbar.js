@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import "./ArraNavbar.css";
+import "./Navbar.css";
+import AppIcon from "./AppIcon";
+import Config from "./config.json";
 
 class ArraNavbar extends Component {
   render() {
@@ -26,18 +28,15 @@ class ArraNavbar extends Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand className="navbar-brand">
-            <img
-              className="pull-left"
-              src="https://imgur.com/PRYIKU9.png"
+            <AppIcon
               style={{
-                height: "32px",
-                width: "auto",
-                paddingRight: "1rem",
-                paddingBottom: "1rem"
-              }}
-              alt="Arra app icon"
-            />
-            <Link to="/">Arra</Link>
+	            height: "32px",
+	            width: "auto",
+	            paddingRight: "1rem",
+	            paddingBottom: "1rem"
+            }}
+              className={"pull-left"}/>
+            <Link to="/">{Config.name}</Link>
           </Navbar.Brand>
         </Navbar.Header>
         {nav}

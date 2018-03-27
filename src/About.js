@@ -16,7 +16,7 @@ class About extends Component {
             </p>
             <br />
             <LinkContainer to={"/beta"}>
-              <Button>Get Arra</Button>
+              <Button>Get {Config.name}</Button>
             </LinkContainer>
           </Col>
         </Row>
