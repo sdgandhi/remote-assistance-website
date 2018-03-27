@@ -1,0 +1,11 @@
+{
+  "name": "Arra",
+  "tagline": "Communicate better with augmented reality.",
+  "description": "Arra lets you draw and place objects in someone else's world.",
+  "about": "We believe that augmented reality can improve communication by letting us share our world with others.\n\nIn current video calls, it's difficult to point to something in the other person's world. We often struggle to describe the position or action we want someone to take. We want to just point, like we would do if we were there, but we can't.\n\nWith Arra, all of this is possible.",
+  "icon": "https://imgur.com/PRYIKU9.png",
+  "demo_video": "https://imgur.com/RG2p6ZN.mp4",
+  "demo_video_cover": "https://imgur.com/mKpuXGr.jpg",
+  "google_analytics": "UA-45271414-7",
+  "contact_email": "hello@getarra.com"
+}

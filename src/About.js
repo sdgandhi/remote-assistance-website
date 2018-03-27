@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Row, Col, Button } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import Config from "./config.json";
 
 class About extends Component {
   render() {
@@ -11,17 +12,7 @@ class About extends Component {
             <h1>About</h1>
             <br />
             <p>
-              We believe that augmented reality can improve communication by
-              letting us share our world with others.
-              <br />
-              <br />
-              In current video calls, it's difficult to point to something in
-              the other person's world. We often struggle to describe the
-              position or action we want someone to take. We want to just point,
-              like we would do if we were there, but we can't.
-              <br />
-              <br />
-              With Arra, all of this is possible.
+              {Config.about}
             </p>
             <br />
             <LinkContainer to={"/beta"}>
