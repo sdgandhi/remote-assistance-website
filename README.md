@@ -1,7 +1,10 @@
 # RemoteAssistance website
 The website for the RemoteAssistance app
 
-## Information
+## CI build and deployment
+This project is automatically built and deployed by CircleCI upon commit to github
+
+## Manual build and deploy
 - `npm install`
 - test locally with `npm run start`
 - build for production with `npm run build`
