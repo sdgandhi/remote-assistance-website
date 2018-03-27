@@ -37,4 +37,4 @@ jobs:
       - run: yarn test
 
       # deploy!
-      - run: ./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
+      - run: ./node_modules/.bin/firebase deploy --project remoteassistance-18f9f --token=$FIREBASE_DEPLOY_TOKEN
