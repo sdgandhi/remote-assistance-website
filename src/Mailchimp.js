@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Grid, Row, Col } from "react-bootstrap";
 import "./Mailchimp.css";
 
 class Mailchimp extends Component {

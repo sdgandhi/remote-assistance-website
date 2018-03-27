@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Jumbotron, Button, Panel } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Grid, Row, Col, Button, Panel } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./Home.css";
 import Mailchimp from "./Mailchimp";

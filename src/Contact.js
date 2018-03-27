@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
 
 class Contact extends Component {
   render() {
