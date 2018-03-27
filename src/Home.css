@@ -1,12 +1,6 @@
-.jumbotron-wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://imgur.com/J7PhrjN.jpg);
+.header {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://imgur.com/J7PhrjN.jpg); */
   background-size: cover;
-}
-.jumbotron {
-  background-color: transparent;
-  margin: 0rem;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: white;
+  margin-top: 3rem;
+  border-radius: 0px;
 }

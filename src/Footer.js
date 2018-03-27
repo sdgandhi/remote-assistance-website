@@ -8,8 +8,7 @@ class Footer extends Component {
     return (
       <footer
         style={{
-          backgroundColor: "#222",
-          color: "white",
+          backgroundColor: "#eee",
           paddingTop: "4rem",
           paddingBottom: "4rem"
         }}
@@ -55,9 +54,15 @@ class Footer extends Component {
           <div class="text-center" style={{ paddingTop: "4rem" }}>
             © Remote Assistance 2018
           </div>
-          <img className="center-block"
+          <img
+            className="center-block"
             src="https://imgur.com/PRYIKU9.png"
-            style={{ height: "64px", width: "auto", marginTop: "6rem", marginBottom: "3rem" }}
+            style={{
+              height: "64px",
+              width: "auto",
+              marginTop: "6rem",
+              marginBottom: "3rem"
+            }}
             alt="Arra app icon"
           />
         </Grid>

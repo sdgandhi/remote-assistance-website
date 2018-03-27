@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <Grid>
         <Row style={{ height: "30rem" }}>
-          <Col md={6} xs={12}>
+          <Col md={6}>
             <h1>Contact</h1>
             <br />
             <p>Drop us a line at hello@getarra.com</p>

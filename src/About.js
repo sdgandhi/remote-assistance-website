@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <Grid>
         <Row style={{ height: "60rem" }}>
-          <Col md={6} xs={12}>
+          <Col md={6}>
             <h1>About</h1>
             <br />
             <p>
@@ -25,9 +25,9 @@ class About extends Component {
               With Arra, all of this is possible.
             </p>
             <br />
-            <Button>
-              Get Arra
-            </Button>
+            <LinkContainer to={"/beta"}>
+              <Button>Get Arra</Button>
+            </LinkContainer>
           </Col>
         </Row>
       </Grid>

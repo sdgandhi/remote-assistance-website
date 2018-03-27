@@ -6,6 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Beta from "./Beta";
 import "./index.css";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/beta" component={Beta} />
         </Switch>
         <Footer />
       </div>

@@ -6,12 +6,6 @@ class DemoVideo extends Component {
   render() {
     return (
       <div className="demo-video">
-        <img
-          className="center-block"
-          src="https://imgur.com/PRYIKU9.png"
-          style={{ height: "128px", width: "auto", paddingTop: "3rem" }}
-          alt="Arra app icon"
-        />
         <div className="phone-frame center-block">
           <video autoplay loop muted controls preload poster="https://imgur.com/mKpuXGr.jpg">
             <source src="https://imgur.com/RG2p6ZN.mp4" />

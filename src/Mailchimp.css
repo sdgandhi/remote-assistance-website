@@ -1,15 +1,5 @@
-.signup-wrapper {
-  background-color: lightseagreen;
-}
-
 #mc_embed_signup {
-  color: white;
-  padding-left: 4rem;
-  padding-right: 4rem;
   padding-bottom: 4rem;
-  padding-top: 2rem;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 label {
@@ -18,6 +8,8 @@ label {
 }
 
 #mc-embedded-subscribe {
+  color: white;
   background-color: #333;
   margin-top: 3rem;
+  padding: 1rem;
 }

@@ -9,28 +9,37 @@ import DemoVideo from "./DemoVideo";
 class Home extends Component {
   render() {
     return (
-      <Grid fluid>
+      <Grid>
         <Row>
-          <Col>
-            <div className="jumbotron-wrapper">
-              <Jumbotron>
-                <h1>Communicate better with augmented reality</h1>
-                <br />
-                <h2 style={{ lineHeight: "3.5rem" }}>
-                  Arra lets you draw and place objects in someone else's world.
-                </h2>
-                <br />
-                <br />
-                <Button bsStyle="primary">Get Arra</Button>
-              </Jumbotron>
+          <Col md={6}>
+            <div className="header">
+              <img
+                className=""
+                src="https://imgur.com/PRYIKU9.png"
+                style={{ height: "128px", width: "auto", paddingTop: "3rem" }}
+                alt="Arra app icon"
+              />
+              <br />
+              <br />
+              <h1>Communicate better with augmented reality.</h1>
+              <br />
+              <h3 style={{ lineHeight: "3.5rem" }}>
+                Arra lets you draw and place objects in someone else's world.
+              </h3>
+              <br />
+              <br />
+              <LinkContainer to={"/beta"}>
+                <Button>Get Arra</Button>
+              </LinkContainer>
             </div>
           </Col>
-        </Row>
-        <Row>
-          <Col>
+          <Col md={6}>
             <DemoVideo />
           </Col>
         </Row>
+        <br />
+        <br />
+        <hr />
         <Row>
           <Col>
             <Mailchimp />
