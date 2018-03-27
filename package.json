@@ -14,7 +14,9 @@
     "react-router-dom": "4.2.2",
     "react-scripts": "1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^3.17.7"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
