@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Jumbotron, Button } from "react-bootstrap";
+import { Grid, Row, Col, Jumbotron, Button, Panel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import "./Home.css";
@@ -40,9 +40,21 @@ class Home extends Component {
         <br />
         <br />
         <hr />
+        <br />
+        <br />
         <Row>
-          <Col>
+          <Col md={6}>
             <Mailchimp />
+          </Col>{" "}
+          <Col md={6}>
+            <Panel>
+              <Panel.Body>
+                <h2>
+                  <em>It's like FaceTime, but in augmented reality.</em>
+                </h2>
+              </Panel.Body>
+              <Panel.Footer>— Someone who used Arra</Panel.Footer>
+            </Panel>
           </Col>
         </Row>
       </Grid>

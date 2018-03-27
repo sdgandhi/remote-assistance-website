@@ -7,7 +7,7 @@ class Beta extends Component {
     return (
       <Grid>
         <Row>
-          <Col>
+          <Col md={6}>
             <Mailchimp />
           </Col>
         </Row>
