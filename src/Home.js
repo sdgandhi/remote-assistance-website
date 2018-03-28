@@ -14,14 +14,14 @@ class Home extends Component {
         <Row>
           <Col md={6}>
             <div className="header">
-              <AppIcon style={{ height: "128px", width: "auto", paddingTop: "3rem" }}/>
+              <AppIcon
+                style={{ height: "128px", width: "auto", paddingTop: "3rem" }}
+              />
               <br />
               <br />
               <h1>{Config.tagline}</h1>
               <br />
-              <h3 style={{ lineHeight: "3.5rem" }}>
-                {Config.description}
-              </h3>
+              <h3 style={{ lineHeight: "3.5rem" }}>{Config.description}</h3>
               <br />
               <br />
               <LinkContainer to={"/beta"}>
@@ -29,13 +29,15 @@ class Home extends Component {
               </LinkContainer>
             </div>
           </Col>
+          <br />
+          <br />
           <Col md={6}>
             <DemoVideo />
           </Col>
         </Row>
         <br />
         <br />
-        <hr />
+        <br />
         <br />
         <br />
         <Row>
