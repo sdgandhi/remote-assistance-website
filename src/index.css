@@ -3,21 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.7rem;
-}
-
-body:before {
-  background: url(https://imgur.com/WARWpHL.png) repeat;
-  /* background: url(https://imgur.com/K6UYS18.png) repeat; */
-  /* background: url(https://imgur.com/yKWsLky.png) repeat; */
-  display: block;
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 10000%;
-  opacity: 0.4;
+  background: url(https://imgur.com/KsAKZRe.png) repeat;
 }
 
 h1,
