@@ -37,9 +37,7 @@ class Footer extends Component {
                 <strong>Social media</strong>
               </h6>
               <ul class="list-unstyled">
-                <li>Twitter</li>
-                <li>Medium</li>
-                <li>Instagram</li>
+                <li><a href="https://twitter.com/get_arra">Twitter</a></li>
               </ul>
             </Col>
             <Col xs={4}>
