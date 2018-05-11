@@ -1,9 +1,9 @@
 .phone-frame {
   background-color: #333333;
-  padding: 50px 5px 50px 5px;
-  margin-top: 50px;
+  padding: 25px 5px 25px 5px;
+  margin-top: 0px;
   border-radius: 30px;
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
 }
 
