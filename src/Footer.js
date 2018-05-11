@@ -45,8 +45,10 @@ class Footer extends Component {
                 <strong>Legal</strong>
               </h6>
               <ul class="list-unstyled">
-                <li>Terms of Service</li>
-                <li>Privacy Policy</li>
+                {/*<li>Terms of Service</li>*/}
+                <li>
+                  <Link to="/privacy">Privacy Policy</Link>
+                </li>
               </ul>
             </Col>
           </Row>

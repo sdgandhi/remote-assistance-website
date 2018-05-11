@@ -51,7 +51,7 @@ class Home extends Component {
                   <em>It's like FaceTime, but in augmented reality.</em>
                 </h2>
               </Panel.Body>
-              <Panel.Footer>— Someone who used Arra</Panel.Footer>
+              <Panel.Footer>— Arra user</Panel.Footer>
             </Panel>
           </Col>
         </Row>

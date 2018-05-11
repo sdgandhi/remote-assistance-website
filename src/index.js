@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Beta from "./Beta";
 import "./index.css";
 import GoogleAnalytics from "./GoogleAnalytics";
+import Privacy from "./Privacy";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/beta" component={Beta} />
+          <Route exact path="/privacy" component={Privacy} />
         </Switch>
         <Footer />
       </div>
